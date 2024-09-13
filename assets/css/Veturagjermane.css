@@ -159,139 +159,61 @@ body:after {
         opacity: 1;
     }
 
-
-
-    .texti-MDH {
-        margin: 10px;
+    .kerret-gjermane-h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px;
+        font-size: 20px;
+    }
+    .kerret-gjermane{
+        flex-direction: column;
+    }
+    .MBAW-row{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .POS-row{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 100px 0 70px 0;
+    }
+    .all{
+        width: 250px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .auto-all a{
         text-align: center;
+        text-decoration: none;
         text-transform: uppercase;
-        color: rgba(0, 0, 0, 0.924);
-    }
-
-    .datetime-kryesorja {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-
-    .dt-input{
-        background-color: darkorange;
-        border: none;
-        height: 60px;
-        font-size: 18px;
-        color: rgba(0, 0, 0, 0.924);
-        border-radius: 0.5em;
-        margin: 0 20px 0 0;
-        border: 2px #000000ec solid;
-    }
-
-    .kerko-veturen{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 10%;
-    }
-    .kerko-veturen-btn{
-        background-color: rgba(0, 0, 0, 0.924);
-        border: none;
-        color: rgba(0, 0, 0, 0.924);
-        font-size: 18px;
-        padding: 0.8em;
-        border-radius: 0.5em;
-        cursor: pointer;
-        transition: 0.3s;
-        border: 1.5px #1f222a solid;
-    }
-    .kerko-veturen-btn:hover{
-        background-color: rgba(0, 0, 0, 0.924);
-        transition: 0.3s;
-        border: 1.5px darkorange solid;
-        box-shadow: 0 0 0.8em darkorange;
-    }
-    .kerko-veturen-btn a {
-        text-decoration: none;
-        color: #fff;
-    }
-
-    input[type=date]:focus {
-        outline: none;
-        border: none;
-        border: 2px solid rgba(0, 0, 0, 0.924);
-        border-radius: 0.5em;
-        box-shadow: 0 0 0.8em rgba(0, 0, 0, 0.924);
-    }
-    input[type=time]:focus {
-        outline: none;
-        border: none;
-        border: 2px solid rgba(0, 0, 0, 0.924);
-        border-radius: 0.5em;
-        box-shadow: 0 0 0.8em rgba(0, 0, 0, 0.924);
-    }
-
-
-
-    .divi-kryesor-i-textit {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 100px;
-    }
-    .texti-perzgjedhjes h1 {
-        font-family: 'Cormorant Garamond', serif;
-        letter-spacing: 5px;
-        font-size: 40px;
-    }
-    .kryesorja-per-perzgjedje {
-        padding: 100px 0 100px 0;
-        background-color: #f3f3f3;
-    }
-    .margine-vetura {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        /* margin-left: 100px; */
-        text-align: center;
-    }
-
-    .background-image {
-        background-image: url(../images/vozitnestil.jpg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        display: inline-block;
-        width: 100%;
-        height: 650px;
-    }
-    
-    .container {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    
-    .fiximg {
-        width: 300px;
-    }
-    
-    
-    .container div a {
-        text-decoration: none;
-        font-size: 20px;
-        color: black;
-    }
-    
-    .container div a:hover{
-        font-size: 20px;
-        transition: 0.5s;
         color: darkorange;
-    } 
+        font-size: 17px;
+    }
+    .auto-all a:hover{
+        color: black;
+        transition: 0.3s;
+    }
+    .auto-all{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .auto-fiximg{
+        width: 200px;
+        height: auto;
+    }
+
     
     .kryesorja-imazheve {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        height: 120px;
+        height: 100px;
     }
     .social-networks {
         display: flex;
@@ -338,9 +260,6 @@ footer div a {
         max-width: 100%;
     }
     .all-content{
-        /* display: flex;
-        justify-content: center;
-        align-items: center; */
         flex-direction: column;
         max-width: 100%;
     }
@@ -359,58 +278,6 @@ footer div a {
         margin: 5px;
     }
 
-
-
-    .komplet-data-marrjes-kthimit{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 100% !important;
-    }
-    .kompleti-marrjes{
-        width: 100%!important;
-    }
-    .kompleti-kthimit{
-        width: 100%!important;
-        margin-bottom: 10px;
-    }
-    .kerko-veturen{
-        width: 100%;
-    }
-    .datetime-kryesorja{
-        text-align: center;
-    }
-
-
-    .background-image{
-        width: 100%;
-        height: 220px;
-    }
-
-
-    .kryesorja-per-perzgjedje{
-        text-align: center;
-        padding: 30px;
-    }
-    .divi-kryesor-i-textit{
-        margin: 0 0 70px 0 ;
-    }
-    .texti-perzgjedhjes h1{
-        font-size: 27px;
-    }
-    .container{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-    }
-    .fiximg{
-        width: 250px;
-    }
-    .veturat-japoneze{
-        margin: 50px 0 50px 0;
-    }
     
     footer{
         text-align: center;
@@ -428,72 +295,3 @@ footer div a {
         flex-direction: column;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .dropdown {
-    float: left;
-    overflow: hidden;
-    }
-
-    .dropdown .dropbtn {
-    cursor: pointer;
-    font-size: 18px;  
-    border: none;
-    outline: none;
-    color: white;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-    transition: 0.3s;
-    }
-
-    .dropbtn, .dropbtn:hover {
-    color: darkorange;
-    }
-
-    .dropdown-content {
-    display: none;
-    position: absolute;
-    top: 60px;
-    background-color: #f9f9f9;
-    min-width: 350px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    }
-
-    .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    transition: 0.3s;
-    }
-
-    .dropdown-content a:hover {
-    background-color: #f3f3f3;
-    color: darkorange;
-    } */
-
-    /* .show {
-    display: block;
-    } */

@@ -286,6 +286,9 @@ body:after {
         max-width: 100%;
     }
     .all-content{
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
         flex-direction: column;
         max-width: 100%;
     }
@@ -304,6 +307,30 @@ body:after {
         margin: 5px;
     }
 
+
+    .kerre-gjermane{
+        text-align: center;
+    }
+    .kerret-gjermane-h1{
+        font-size: 17px;
+    }
+    .MBAW-row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .POS-row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+    }
+    .auto-all{
+        margin-bottom: 50px;
+    }
+
     
     footer{
         text-align: center;
@@ -314,10 +341,21 @@ body:after {
     footer h1{
         font-size: 55px;
     }
-    footer div{
+    footer .contact{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+    }
+    .footer-info{
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+    .footer-Sa a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
     }
 }

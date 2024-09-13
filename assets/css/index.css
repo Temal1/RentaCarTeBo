@@ -182,7 +182,7 @@ body:after {
         font-size: 18px;
         color: rgba(0, 0, 0, 0.924);
         border-radius: 0.5em;
-        margin: 0 20px 0 0;
+        margin: 10px;
         border: 2px #000000ec solid;
     }
 
@@ -431,10 +431,21 @@ footer .footer-info a {
     footer h1{
         font-size: 55px;
     }
-    footer div{
+    footer .contact{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+    }
+    .footer-info{
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+    .footer-Sa a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
     }
 }

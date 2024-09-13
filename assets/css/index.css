@@ -241,16 +241,16 @@ body:after {
         font-family: 'Cormorant Garamond', serif;
         letter-spacing: 5px;
         font-size: 40px;
+        text-decoration: underline;
     }
     .kryesorja-per-perzgjedje {
-        padding: 100px 0 100px 0;
+        padding: 70px 0 100px 0;
         background-color: #f3f3f3;
     }
     .margine-vetura {
         display: flex;
         justify-content: center;
         align-items: center;
-        /* margin-left: 100px; */
         text-align: center;
     }
 
@@ -321,12 +321,22 @@ footer .contact {
     color: darkorange;
     font-size: 35px;
 }
-footer div a {
+footer .footer-info a {
     display: flex;
     align-items: center;
     text-decoration: none;
     color: white;
     margin-top: 20px;
+}
+
+.footer-info{
+    width: 400px;
+    height: 230px;
+    box-shadow: 0 0 1.2em darkorange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
 }
 
 

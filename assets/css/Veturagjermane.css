@@ -159,12 +159,18 @@ body:after {
         opacity: 1;
     }
 
+
+    .german-auto{
+        background-color: #f3f3f3;
+    }
+
     .kerret-gjermane-h1{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 50px;
+        padding: 50px;
         font-size: 20px;
+        text-decoration: underline;
     }
     .kerret-gjermane{
         flex-direction: column;
@@ -178,7 +184,7 @@ body:after {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        margin: 100px 0 70px 0;
+        padding: 100px 0 70px 0;
     }
     .all{
         width: 250px;
@@ -187,16 +193,26 @@ body:after {
         justify-content: center;
         align-items: center;
     }
+    .auto-all{
+        border: 1px rgba(0, 0, 0, 0.924) solid;
+        border-radius: 1em;
+    }
+    .auto-all:hover{
+        border: 1px rgba(0, 0, 0, 0.924) solid;
+        box-shadow: 0 0 1.2em rgba(0, 0, 0, 0.924);
+        transition: 0.5s;
+    }
     .auto-all a{
         text-align: center;
         text-decoration: none;
         text-transform: uppercase;
         color: darkorange;
         font-size: 17px;
+
     }
     .auto-all a:hover{
         color: black;
-        transition: 0.3s;
+        transition: 0.5s;
     }
     .auto-all{
         display: flex;
@@ -223,33 +239,43 @@ body:after {
     }
 
 
-footer {
-    background-color: rgba(0, 0, 0, 0.924);
-    height: 278px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-footer h1 {
-    font-size: 50px;
-    font-family: 'MonteCarlo', cursive;
-    color: darkorange;
-    font-size: 70px;
-}
-
-footer .contact {
-    display: flex;
-    color: darkorange;
-    font-size: 35px;
-}
-footer div a {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-    margin-top: 20px;
-}
+    footer {
+        background-color: rgba(0, 0, 0, 0.924);
+        height: 278px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    footer h1 {
+        font-size: 50px;
+        font-family: 'MonteCarlo', cursive;
+        color: darkorange;
+        font-size: 70px;
+    }
+    
+    footer .contact {
+        display: flex;
+        color: darkorange;
+        font-size: 35px;
+    }
+    footer .footer-info a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        margin-top: 20px;
+    }
+    
+    .footer-info{
+        width: 400px;
+        height: 230px;
+        box-shadow: 0 0 1.2em darkorange;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1em;
+    }
 
 
 @media (max-width: 575px) {

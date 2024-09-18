@@ -341,19 +341,6 @@ footer .footer-info a {
 
 
 @media (max-width: 575px) {
-    .content-division{
-        display: flex; 
-        justify-content: center;
-        align-items: center; 
-        max-width: 100%;
-    }
-    .all-content{
-        /* display: flex;
-        justify-content: center;
-        align-items: center; */
-        flex-direction: column;
-        max-width: 100%;
-    }
     .nav-content{
         flex-direction: column;
         width: 100%;
@@ -370,7 +357,6 @@ footer .footer-info a {
     }
 
 
-
     .komplet-data-marrjes-kthimit{
         display: flex;
         justify-content: center;
@@ -380,7 +366,7 @@ footer .footer-info a {
     }
     .kompleti-marrjes{
         width: 100%!important;
-    }
+    } 
     .kompleti-kthimit{
         width: 100%!important;
         margin-bottom: 10px;
@@ -447,5 +433,133 @@ footer .footer-info a {
         justify-content: center;
         align-items: center;
         margin: 10px;
+    }
+}
+
+@media (min-width: 576px ) and (max-width: 768px){
+    .nav-content{
+        flex-direction: column;
+        width: 100%;
+    }
+    .top-bar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-li{
+        margin: 10px;
+    }
+
+
+    .komplet-data-marrjes-kthimit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .kompleti-marrjes{
+        width: 100%!important;
+    } 
+    .kompleti-kthimit{
+        width: 100%!important;
+        margin-bottom: 10px;
+    }
+    .kerko-veturen{
+        width: 100%;
+    }
+
+
+    .background-image{
+        width: 100%;
+        height: 330px;
+    }
+
+
+    .kryesorja-per-perzgjedje{
+        text-align: center;
+        padding: 30px;
+    }
+    .divi-kryesor-i-textit{
+        margin: 0 0 70px 0 ;
+    }
+    .texti-perzgjedhjes h1{
+        font-size: 32px;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .fiximg{
+        width: 280px;
+    }
+    .veturat-japoneze{
+        margin: 50px 0 50px 0;
+    }
+
+
+    footer{
+        text-align: center;
+        flex-direction: column;
+        height: auto;
+        max-width: 100%;
+    }
+    footer h1{
+        font-size: 55px;
+    }
+    footer .contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-Sa a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+}
+
+@media (min-width: 769px ) and (max-width: 1024px){
+    .komplet-data-marrjes-kthimit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .kerko-veturen{
+        width: 100%;
+    }
+    .background-image{
+        width: 100%;
+        height: 400px;
+    }
+    .kryesorja-per-perzgjedje{
+        text-align: center;
+        padding: 30px;
+    }
+    .veturat-japoneze{
+        margin: 50px 0 50px 0;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    footer{
+        text-align: center;
+        flex-direction: column;
+        height: auto;
+        max-width: 100%;
+    }
+}
+@media (min-width: 1025px ) and (max-width: 1440px){
+    .background-image{
+        width: 100%;
+        height: 550px;
     }
 }
